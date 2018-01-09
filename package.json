@@ -7,7 +7,8 @@
   "scripts": {
     "test": "jest",
     "build": "babel \"src\" --out-dir \"dist\"",
-    "postbuild": "prettier --write \"dist/**/*.js\""
+    "postbuild": "prettier --write \"dist/**/*.js\"",
+    "prepare": "yarn run build"
   },
   "files": [
     "dist/*"
@@ -23,5 +24,6 @@
     "jest": "^22.0.4",
     "prettier": "^1.9.2",
     "regenerator-runtime": "^0.11.1"
-  }
+  },
+  "repository": "git@github.com:deckchairlabs/firestore-graphql-resolvers.git"
 }
