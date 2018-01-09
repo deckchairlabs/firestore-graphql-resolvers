@@ -1,6 +1,6 @@
 {
   "name": "firestore-graphql-resolvers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./index.js",
   "author": "James Edmonds <james@deckchairlabs.com>",
   "license": "MIT",
