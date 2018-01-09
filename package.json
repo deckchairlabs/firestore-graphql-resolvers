@@ -1,0 +1,19 @@
+{
+  "name": "firestore-graphql-resolvers",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel \"src\" --out-dir \"dist\""
+  },
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "@google-cloud/firestore": "^0.10.1",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "author": "James Edmonds <james@deckchairlabs.com>"
+}
