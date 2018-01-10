@@ -3,4 +3,4 @@ export default collection => (parent, { id }, { firestore }) =>
     .collection(collection)
     .doc(id)
     .get()
-    .then(doc => ({ id: doc.id, ...doc.data() }))
+    .then(doc => ({ id, ...doc.data() }))
