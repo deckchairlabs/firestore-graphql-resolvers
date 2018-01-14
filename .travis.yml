@@ -1,7 +1,10 @@
 language: node_js
 node_js:
-  - "node"
-  - "7"
-  - "6"
+- node
+- '7'
+- '6'
 cache:
   yarn: true
+notifications:
+  slack:
+    secure: GJ8c6jR6p1FS+RBJZYPSZXQWKRueV4UqTHwDUHvUtSbFxPExJaI+sbLxnmUJv22AfAJrPReJI7vvH9CjfTwYuxSHvwUNjRWYiN0/2rQxWpQNsGnAQxMqsaCJQpx4qODqcS1Xf0vrx3BQOKIUZnPkGKmoAFjgU26SdCzJlfkxXyJVYTHbKtgjE+fM+nZFN2XCv8fVEXJBg+m/PzngZq97DBTg8MQvxzR5qZQ7ptixEba9JEn5Z50oWNPUhrbTjVEhJD+PQeTsey6gMCOo6hzT711ve4MV7zkyQGi3kfVkwvR9zjT74nwM2Lhy2ZX/hQ7wL2zy0V7BCsuXQuJJNoHRYL5eHvyxyt/nqhvRo5MRx0ggqaTdpUMBRm/TsWx9y4cxiwpGPhfjdn/abbunEyuPE984ahEPeoDlI9un1XhonpEzw+rsQjYj7+Y6vt76dIMaoamxiX8xEL7ojYTKPrUCRBtCwo91kvWPUdYAdBbz3ydUcqb2kni0+cWQ0k93r1tUbM44PNFhsVB7aBRBGyjTHpAmnUTLTUycr9V3/M49wN8Iq8UDPTaSWQQByL0vqnlm/lmHmrlc2xjITzP7dQYiiWfMwhb8WWNRfpsVlpVPtCUuhzH0oDIBC1ug9vOvMiQp8R5svPDm3J7jljRily85IpFqDZQo8u9SHxdjJ3hdyJE=
